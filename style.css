@@ -83,73 +83,73 @@ nav #icon{
 .change .bar3 {
     transform: translate(0, -11px) rotate(45deg);
   }
-.info{
-    color: rgb(255, 145, 0);
-    font-size: 1.5em;
-    margin: 15px;
-    display: flex;
-}
-.contact{
+.about-us{
     background-color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
- 
-@media(max-width:1048){
-    nav ul{
-      margin-right: 20px;
-    }
-    nav a{
-      font-size: 17px;
-    }
-  }
-@media(max-width:909px){
-    label.logo img{
-        width: 200px;
-        padding: 0 50px;
-    }
-    nav #icon{
-      display: block;
-       
-    }
-    .info{
-        display: contents;
-         
+    padding: 15px 11px;
+     
+     
+    justify-content: space-around;
+
     
-    }
-    .info img{
-        margin: 40px;
-        width: 400px;
-    }
-    nav ul{
-      position: fixed;
-      width: 100%;
-      height: 100vh;
-      background: black;
-      top: 80px;
-      left:-100%;
-      text-align: center;
-      transform: all .5s;
-  
-    }
-    nav li{
-      display: block;
-      margin: 50px 0;
-      line-height: 30px;
-    }
-    nav a {
-      font-size: 2.2em;
-    }
-    a.active,a:hover{
-      border: none;
-      color: black;
-      border-radius: 15px;
-      background-color: rgb(255, 145, 0);
-    }
-    nav ul.show{
-      left: 0;
-  
-    }
+}
+.about-us p{
+    color: rgb(255, 145, 0);
+    font-size: 1.4em;
+}
+
+@media(max-width:1048){
+  nav ul{
+    margin-right: 20px;
   }
+  nav a{
+    font-size: 17px;
+  }
+}
+@media(max-width:909px){
+  nav #icon{
+    display: block;
+  }
+  nav ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    top: 80px;
+    left:-100%;
+    text-align: center;
+    transform: all .5s;
+
+  }
+  nav li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav a {
+    font-size: 2.2em;
+  }
+  a.active,a:hover{
+    border: none;
+    color: black;
+    border-radius: 15px;
+    background-color: rgb(255, 145, 0);
+  }
+  nav ul.show{
+    left: 0;
+
+  }
+  label.logo img{
+    width: 200px;
+    padding: 0 50px;
+  }
+  .who-us p{
+    font-size: 1.8em;
+  }
+  .who-us img{
+    width: 325px;
+  }
+.title{
+  font-size: 1.7em;
+}
+}
+
